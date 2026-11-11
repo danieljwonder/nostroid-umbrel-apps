@@ -1,0 +1,40 @@
+manifestVersion: 1
+id: wonder-nak-bunker
+category: social
+name: nak bunker
+version: "0.22.3-1"
+tagline: Your own Nostr remote signer (NIP-46)
+icon: https://raw.githubusercontent.com/danieljwonder/umbrel-app-store/main/wonder-nak-bunker/icon.svg
+description: >-
+  Keep your Nostr key on your Umbrel and let apps sign with it remotely, without ever
+  seeing it. This packages the bunker from nak, the widely used Nostr command-line
+  tool, unmodified, with a small web page for setup and unlocking.
+
+
+  ## What It Does
+
+    - **Remote signing (NIP-46)** - connect web clients, WordPress plugins or bots with a bunker:// link. They ask, the bunker signs.
+
+    - **Encrypted at rest** - your key is stored encrypted (NIP-49). After a restart, unlock it from the web page.
+
+    - **Stays up** - reconnects to relays on its own, and can re-unlock itself after a crash until the app restarts.
+
+    - **Simple controls** - edit relays, see connection status, and remove apps you no longer trust.
+
+
+  Import an existing key (ncryptsec, nsec or hex) or generate a new one. Existing
+  `nak bunker --persist` setups can be moved over by copying one file.
+developer: fiatjaf (nak), packaged by Daniel Wonder
+website: https://github.com/fiatjaf/nak
+dependencies: []
+repo: https://github.com/danieljwonder/nak-bunker-umbrel
+support: https://github.com/danieljwonder/nak-bunker-umbrel/issues
+port: 4646
+gallery: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+releaseNotes: >-
+  First release: nak v0.22.3 with web setup and unlock.
+submitter: Daniel Wonder
+submission: https://github.com/danieljwonder/umbrel-app-store
