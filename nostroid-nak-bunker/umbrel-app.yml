@@ -1,10 +1,10 @@
 manifestVersion: 1
-id: wonder-nak-bunker
+id: nostroid-nak-bunker
 category: social
 name: nak bunker
 version: "0.22.3-1"
 tagline: Your own Nostr remote signer (NIP-46)
-icon: https://raw.githubusercontent.com/danieljwonder/umbrel-app-store/main/wonder-nak-bunker/icon.svg
+icon: https://raw.githubusercontent.com/danieljwonder/nostroid-umbrel-apps/main/nostroid-nak-bunker/icon.svg
 description: >-
   Keep your Nostr key on your Umbrel and let apps sign with it remotely, without ever
   seeing it. This packages the bunker from nak, the widely used Nostr command-line
@@ -37,4 +37,4 @@ defaultPassword: ""
 releaseNotes: >-
   First release: nak v0.22.3 with web setup and unlock.
 submitter: Daniel Wonder
-submission: https://github.com/danieljwonder/umbrel-app-store
+submission: https://github.com/danieljwonder/nostroid-umbrel-apps

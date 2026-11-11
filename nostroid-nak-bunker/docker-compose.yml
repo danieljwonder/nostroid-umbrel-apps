@@ -3,7 +3,7 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      APP_HOST: wonder-nak-bunker_web_1
+      APP_HOST: nostroid-nak-bunker_web_1
       APP_PORT: 8080
 
   # Upstream nak (checksum-pinned release binary) + web unlock shim.
