@@ -2,7 +2,7 @@ manifestVersion: 1
 id: nostroid-nak-bunker
 category: social
 name: nak bunker
-version: "0.22.3-1"
+version: "0.22.3-2"
 tagline: Your own Nostr remote signer (NIP-46)
 icon: https://raw.githubusercontent.com/danieljwonder/nostroid-umbrel-apps/main/nostroid-nak-bunker/icon.svg
 description: >-
@@ -35,6 +35,7 @@ path: ""
 defaultUsername: ""
 defaultPassword: ""
 releaseNotes: >-
-  First release: nak v0.22.3 with web setup and unlock.
+  Shorter relay error messages, and new installs default to relays that are reachable from
+  more home networks. Existing relay lists are not changed.
 submitter: Daniel Wonder
 submission: https://github.com/danieljwonder/nostroid-umbrel-apps
