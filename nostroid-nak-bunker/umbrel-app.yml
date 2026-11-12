@@ -2,7 +2,7 @@ manifestVersion: 1
 id: nostroid-nak-bunker
 category: social
 name: nak bunker
-version: "0.22.3-2"
+version: "0.22.3-3"
 tagline: Your own Nostr remote signer (NIP-46)
 icon: https://raw.githubusercontent.com/danieljwonder/nostroid-umbrel-apps/main/nostroid-nak-bunker/icon.svg
 description: >-
@@ -35,7 +35,8 @@ path: ""
 defaultUsername: ""
 defaultPassword: ""
 releaseNotes: >-
-  Shorter relay error messages, and new installs default to relays that are reachable from
-  more home networks. Existing relay lists are not changed.
+  New installs start with the remote-signing relays Amethyst, Amber and Opal use by default
+  (relay.nip46.com, nrs.primal.net, bucket.coracle.social). Relay errors are shorter and clearer.
+  Your existing relay list is not changed.
 submitter: Daniel Wonder
 submission: https://github.com/danieljwonder/nostroid-umbrel-apps
