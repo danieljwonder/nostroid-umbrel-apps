@@ -2,7 +2,7 @@ manifestVersion: 1
 id: nostroid-nak-bunker
 category: social
 name: nak bunker
-version: "0.22.3-3"
+version: "0.22.3-4"
 tagline: Your own Nostr remote signer (NIP-46)
 icon: https://raw.githubusercontent.com/danieljwonder/nostroid-umbrel-apps/main/nostroid-nak-bunker/icon.svg
 description: >-
@@ -35,8 +35,12 @@ path: ""
 defaultUsername: ""
 defaultPassword: ""
 releaseNotes: >-
-  New installs start with the remote-signing relays Amethyst, Amber and Opal use by default
-  (relay.nip46.com, nrs.primal.net, bucket.coracle.social). Relay errors are shorter and clearer.
-  Your existing relay list is not changed.
+  New: locked reminders. If the bunker stays locked after a restart, it can send you an encrypted
+  Nostr DM (NIP-17) from a key unique to your install, then once a day until you unlock it. On by
+  default after your first unlock; use Send test DM to check it reaches you.
+
+
+  Security: keys are now passed to nak without appearing in the process list, and the README
+  documents how passwords and keys are handled.
 submitter: Daniel Wonder
 submission: https://github.com/danieljwonder/nostroid-umbrel-apps
