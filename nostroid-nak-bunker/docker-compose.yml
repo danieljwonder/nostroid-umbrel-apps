@@ -9,7 +9,7 @@ services:
   # Upstream nak (checksum-pinned release binary) + web unlock shim.
   # Source: https://github.com/danieljwonder/nak-bunker-umbrel
   web:
-    image: ghcr.io/danieljwonder/nak-bunker-umbrel:v0.22.3-4@sha256:cd7f89c802503b96604ed445f8f60bfa6b72ae4c5f3747f029cdae8385154e03
+    image: ghcr.io/danieljwonder/nak-bunker-umbrel:v0.22.3-5@sha256:ac7d95ad09eb498e776d36276a58bb075f0746fd9b0dd8795b50a27d1a237c88
     init: true
     user: "1000:1000"
     restart: on-failure
